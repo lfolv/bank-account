@@ -10,8 +10,8 @@ export class BankAccount {
     throw new Error('Remove this statement and implement this function');
   }
 
-  deposit() {
-    throw new Error('Remove this statement and implement this function');
+  deposit(amount) {
+    this._balance += amount
   }
 
   withdraw() {
