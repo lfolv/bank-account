@@ -1,7 +1,7 @@
 import { BankAccount, ValueError } from './bank-account';
 
 describe('Bank Account', () => {
-  xtest('newly opened account has zero balance', () => {
+  test('newly opened account has zero balance', () => {
     const account = new BankAccount();
     account.open();
     expect(account.balance).toEqual(0);
